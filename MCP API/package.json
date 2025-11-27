@@ -1,0 +1,36 @@
+{
+  "name": "camino-travel-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "bin": {
+    "camino-travel-mcp": "dist/src/index.js"
+  },
+  "scripts": {
+    "generate": "npx buf generate buf.build/chain4travel/camino-messenger-protocol && npx buf generate buf.build/bufbuild/protovalidate",
+    "build": "npm run generate && tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.10.1",
+    "@connectrpc/connect": "^2.1.1",
+    "@connectrpc/connect-node": "^2.1.1",
+    "@grpc/grpc-js": "^1.14.1",
+    "@grpc/proto-loader": "^0.8.0",
+    "@modelcontextprotocol/sdk": "^1.23.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "openai": "^6.9.1",
+    "zod": "^4.1.13",
+    "zod-to-json-schema": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

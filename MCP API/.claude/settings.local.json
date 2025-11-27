@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node /mnt/d/DECODE/dist/src/index.js:*)",
+      "Bash(chmod:*)",
+      "Bash(/mnt/d/DECODE/verify-setup.sh:*)",
+      "Bash(npx tsc:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:buf.build)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

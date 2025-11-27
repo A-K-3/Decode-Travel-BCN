@@ -1,0 +1,6 @@
+Código,Nombre,Cadena,Estrellas,Ciudad,Región,País,Dirección,Distrito,Código Postal,Latitud,Longitud,Teléfono,Email,Website
+"HOTEL123456","Sunset Beach Resort & Spa","Marriott","4.5","Mallorca","Balearic Islands","ES","Playa del Carmen 123","Some district or its empty","07001","39.5696","2.6502","+34971123456","info@sunsetbeachresort.com","https://www.sunsetbeachresort.com"
+"HOTEL789012","Alpine Lodge & Spa","Hilton","5","Arosa","Graubünden","CH","Dorfstrasse 45","Graubünden","7050","46.0207","7.7491","+41811234567","info@alpinelodge.ch","https://www.alpinelodge.ch"
+"HOTEL345678","Palm Paradise Resort","Riu Hotels","4","Antalya","Antalya","TR","Beach Road 78","","07100","36.8969","30.7133","+902424445566","contact@palmparadise.com",""
+"HOTEL901234","City Central Hotel","Accor","3.5","Berlin","Berlin","DE","Hauptstrasse 100","","10115","52.52","13.405","+49309876543","info@citycentralberlin.de",""
+"HOTEL567890","Ocean View Resort","IHG","5","Maui","Hawaii","US","2750 Kaanapali Parkway","","96761","20.9374","-156.6869","+18081234567","reservations@oceanviewmaui.com","https://www.oceanviewmaui.com"

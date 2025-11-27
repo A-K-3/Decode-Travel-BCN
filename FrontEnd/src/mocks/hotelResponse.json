@@ -1,0 +1,223 @@
+{
+  "searchId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "rooms": [
+    {
+      "roomCode": "DBL-STD",
+      "roomName": "Standard Double Room",
+      "originalRoomName": "Double Standard",
+      "price": {
+        "total": "192",
+        "currency": "EUR"
+      },
+      "remainingUnits": 10,
+      "hotel": {
+        "code": "ES-IBZ-002",
+        "name": "Hotel Garbi Ibiza",
+        "stars": 3,
+        "location": {
+          "city": "Ibiza",
+          "country": "ES"
+        }
+      },
+      "mealPlan": {
+        "code": "MEAL_PLAN_CODE_RO",
+        "description": "Room Only"
+      },
+      "beds": [
+        {
+          "type": "DOUBLE",
+          "count": 1
+        }
+      ],
+      "services": [
+        {
+          "code": "WIFI",
+          "description": "Free WiFi",
+          "type": "SERVICE_AVAILABILITY_TYPE_INCLUDED"
+        }
+      ],
+      "cancellationPolicy": {
+        "complex_cancel_penalties": {
+          "cancel_penalties": []
+        },
+        "policy_type": "complex_cancel_penalties"
+      }
+    },
+    {
+      "roomCode": "SUI-DLX",
+      "roomName": "Deluxe Suite Sea View",
+      "originalRoomName": "Suite Deluxe Vista Mar",
+      "price": {
+        "total": "450",
+        "currency": "EUR"
+      },
+      "remainingUnits": 3,
+      "hotel": {
+        "code": "ES-MAD-001",
+        "name": "Grand Hotel Paradise",
+        "stars": 5,
+        "location": {
+          "city": "Madrid",
+          "country": "ES"
+        }
+      },
+      "mealPlan": {
+        "code": "MEAL_PLAN_CODE_BB",
+        "description": "Bed & Breakfast"
+      },
+      "beds": [
+        {
+          "type": "KING",
+          "count": 1
+        }
+      ],
+      "services": [
+        {
+          "code": "WIFI",
+          "description": "Free WiFi",
+          "type": "SERVICE_AVAILABILITY_TYPE_INCLUDED"
+        },
+        {
+          "code": "PARKING",
+          "description": "Free Parking",
+          "type": "SERVICE_AVAILABILITY_TYPE_INCLUDED"
+        }
+      ],
+      "cancellationPolicy": {
+        "complex_cancel_penalties": {
+          "cancel_penalties": []
+        },
+        "policy_type": "complex_cancel_penalties"
+      }
+    },
+    {
+      "roomCode": "TWN-ECO",
+      "roomName": "Economy Twin Room",
+      "originalRoomName": "Twin Economy",
+      "price": {
+        "total": "89",
+        "currency": "EUR"
+      },
+      "remainingUnits": 15,
+      "hotel": {
+        "code": "ES-BCN-003",
+        "name": "Barcelona Beach Hotel",
+        "stars": 4,
+        "location": {
+          "city": "Barcelona",
+          "country": "ES"
+        }
+      },
+      "mealPlan": {
+        "code": "MEAL_PLAN_CODE_HB",
+        "description": "Half Board"
+      },
+      "beds": [
+        {
+          "type": "TWIN",
+          "count": 2
+        }
+      ],
+      "services": [
+        {
+          "code": "WIFI",
+          "description": "Free WiFi",
+          "type": "SERVICE_AVAILABILITY_TYPE_INCLUDED"
+        }
+      ],
+      "cancellationPolicy": {
+        "complex_cancel_penalties": {
+          "cancel_penalties": []
+        },
+        "policy_type": "complex_cancel_penalties"
+      }
+    },
+    {
+      "roomCode": "FAM-STD",
+      "roomName": "Family Room",
+      "originalRoomName": "Habitación Familiar",
+      "price": {
+        "total": "275",
+        "currency": "EUR"
+      },
+      "remainingUnits": 2,
+      "hotel": {
+        "code": "ES-SEV-004",
+        "name": "Hostal El Centro",
+        "stars": 2,
+        "location": {
+          "city": "Sevilla",
+          "country": "ES"
+        }
+      },
+      "mealPlan": {
+        "code": "MEAL_PLAN_CODE_RO",
+        "description": "Room Only"
+      },
+      "beds": [
+        {
+          "type": "DOUBLE",
+          "count": 1
+        },
+        {
+          "type": "SINGLE",
+          "count": 2
+        }
+      ],
+      "services": [],
+      "cancellationPolicy": {
+        "complex_cancel_penalties": {
+          "cancel_penalties": []
+        },
+        "policy_type": "complex_cancel_penalties"
+      }
+    },
+    {
+      "roomCode": "PEN-LUX",
+      "roomName": "Penthouse Suite",
+      "originalRoomName": "Suite Penthouse",
+      "price": {
+        "total": "1200",
+        "currency": "EUR"
+      },
+      "remainingUnits": 1,
+      "hotel": {
+        "code": "ES-BCN-005",
+        "name": "Hotel Arts Barcelona",
+        "stars": 5,
+        "location": {
+          "city": "Barcelona",
+          "country": "ES"
+        }
+      },
+      "mealPlan": {
+        "code": "MEAL_PLAN_CODE_FB",
+        "description": "Full Board"
+      },
+      "beds": [
+        {
+          "type": "KING",
+          "count": 1
+        }
+      ],
+      "services": [
+        {
+          "code": "WIFI",
+          "description": "Free WiFi",
+          "type": "SERVICE_AVAILABILITY_TYPE_INCLUDED"
+        },
+        {
+          "code": "SPA",
+          "description": "Spa Access",
+          "type": "SERVICE_AVAILABILITY_TYPE_INCLUDED"
+        }
+      ],
+      "cancellationPolicy": {
+        "complex_cancel_penalties": {
+          "cancel_penalties": []
+        },
+        "policy_type": "complex_cancel_penalties"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Challenge 6: Intelligent travel itinerary booking platform
+Sponsored by: Chain4Travel
+Short description:
+Develop a system where travel agents, AI agents, or authorized parties can intelligently compose and book travel services across multiple suppliers. Function as an intelligent intermediary that aggregates capabilities and routes requests based on preferences and business rules.
+Long description:
+Create logic to analyse booking requests and intelligently match them with suitable travel suppliers based on destination, service type, price range, and quality metrics. Implement a supplier discovery mechanism that maintains an updated catalogue of available services and their capabilities.
+Enable instant payments using on-chain currency USDC or Monerium's EURe currency through blockchain infrastructure. The system should optimize for both speed and cost-effectiveness while maintaining transparency in supplier selection and pricing.
+More details:
+Develop a system where travel agents, AI agents, or other authorized parties can intelligently compose and book travel services across multiple suppliers. The platform should function as an intelligent intermediary that aggregates supplier capabilities, compares offerings, and routes requests to appropriate providers based on user preferences, availability, and business rules.
+Create logic to analyse booking requests and intelligently match them with suitable travel suppliers based on:
+Destination and service type
+Price range and quality metrics
+Availability and capacity
+Supplier reputation and reliability
+Implement a supplier discovery mechanism that maintains an updated catalogue of available services and their capabilities. This should include real-time synchronization of supplier offerings, pricing, and availability status.
+Design mechanisms for routing travel service requests based on real-time availability, quality scoring, regulatory compliance, commercial rules, and multi-supplier package assembly.
+Enable instant payments using on-chain currency USDC or Monerium's EURe currency through blockchain infrastructure. The system should optimize for both speed and cost-effectiveness while maintaining full transparency in supplier selection and pricing decisions.
+The platform should demonstrate how blockchain enables trustless intermediation, ensuring fair supplier selection, instant settlement, and complete auditability of the booking and payment process.
+Camino Messenger provides proven B2B patterns for multi-supplier coordination and can be used directly where the booking involves business entities (tour operators sourcing from suppliers). However, when building intelligent discovery and B2C booking capabilities, consider:
+How should supplier cataloging and availability caching work when serving AI agents or consumers rather than business partners?
+How do authentication, payment, and settlement patterns need to adapt from B2B (verified business entities) to B2C contexts (AI agents, consumers, delegated authorities)?
+Should the platform build entirely new B2C protocols, leverage B2B Messenger where applicable, or create a hybrid architecture?
+Model Context Protocol (MCP) for supplier discovery: Explore how AI agents can discover and interact with travel suppliers through standardized protocols. Consider designing a discovery system that exposes supplier capabilities in machine-readable formats, and how natural language queries can be translated into specific supplier searches.
+EUDI Wallet for authorization: Consider how verified credentials could enable delegated booking scenarios for corporate travel managers, parents booking for minors, or AI agents operating with user delegation.

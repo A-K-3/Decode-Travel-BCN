@@ -1,0 +1,12 @@
+version: v2
+plugins:
+  - remote: buf.build/connectrpc/es
+    out: gen
+    opt:
+      - target=ts
+      - import_extension=.js
+  - remote: buf.build/bufbuild/es
+    out: gen
+    opt:
+      - target=ts
+      - import_extension=.js

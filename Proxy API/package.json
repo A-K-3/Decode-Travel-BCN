@@ -1,0 +1,44 @@
+{
+  "name": "caminomessage",
+  "version": "1.0.0",
+  "description": "Camino Messenger - Hotel Search Implementation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test_grpc_services.js",
+    "test:bot": "node test_bot_connection.js",
+    "test:services": "node test_grpc_services.js",
+    "ping": "node quick_ping_test.js",
+    "search": "node search_accommodation_test.js",
+    "status": "node check_status.js",
+    "api:dev": "tsx watch api/index.ts",
+    "api:start": "tsx api/index.ts",
+    "api:build": "tsc api/index.ts --outDir dist",
+    "get-hotels": "tsx get-all-hotels.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@buf/chain4travel_camino-messenger-protocol.bufbuild_es": "^1.10.0-20251125145931-0ec3c7e44d22.1",
+    "@buf/chain4travel_camino-messenger-protocol.grpc_node": "^1.13.0-20251125145931-0ec3c7e44d22.2",
+    "@bufbuild/connect": "^0.13.0",
+    "@bufbuild/connect-node": "^0.13.0",
+    "@bufbuild/protobuf": "^1.10.0",
+    "@grpc/grpc-js": "^1.14.1",
+    "@grpc/proto-loader": "^0.8.0",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "elliptic": "^6.6.1",
+    "express": "^5.1.0",
+    "keccak": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
